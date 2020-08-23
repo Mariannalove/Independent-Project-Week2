@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>Ghanian celender</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <link href=" style.css" rel="stylesheet" type="text/css">
+    <script src="scripts.js"></script>
+</head>
+
+<body>
+
+
+    <h1> GHANIAN NAME GENERATOR</h1>
+    <hr>
+    <div class="container">
+
+
+        <div>
+            <img SRC="images.jpg">
+
+        </div>
+        <div>
+            <p>This is ghanian calander that allows you to input some details like your birth year</P>
+            your birth date and birth day and year.Our work it to calculate the day of the week you <P>
+                were born and then dependng on your gender output we will display your Akan Name.
+            <p> Akan names
+            <P>
+                are derived from Ghanian culture. Frequently in Ghana, children are given their first name
+            <P>
+                as a 'day name' which corresponds to the day in the week they were born. Here are Ghanian
+            <p>day names.</P>
+
+            </P>
+            </P>
+            </P>
+            </P>
+            </p>
+        </div>
+    </div>
+    <hr>
+
+    <div second-section>
+        <h2><STRONG>MALE</STRONG></h2>
+        <ul>
+            <li>Sunday:Kwasi</li>
+
+            <li>Monday: Kwadwo</li>
+
+            <li>Tuesday:Kwabena</li>
+
+            <li>Wednesday:Kwaku</li>
+
+            <li>Thursday:Yaw</li>
+
+            <li>Friday:Kofi</li>
+
+            <li>Saturday:Kwame</li>
+        </ul>
+
+        <h2><STRONG>FEMALE</STRONG></h2>
+        <ul>
+            <li>Sunday:Akosua </li>
+
+            <li>Monday:Adwoa</li>
+
+            <li>Tuesday:Abenaa</li>
+
+            <li>Wednesday:Akua</li>
+
+            <li>Thursday:Yaa</li>
+
+            <li>Friday: Afua</li>
+
+            <li>Saturday:Ama</li>
+        </ul>
+    </div>
+    <hr>
+
+    <h1><strong>Details:</h1></strong></h2>
+
+    <form style="text-align: center;">
+
+        <div id="gender">
+
+
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">female</label><br>
+
+        </div>
+
+
+        <p>
+            <option></option>
+
+        </p>
+        <p><strong>Year Born:</strong></p>
+        <input type="number" name="" id="yearSection">
+
+
+        <p><strong>Month Born:</strong></p>
+
+        <select id="monthsSection">
+            <p>
+                <option value='0'>January</option>
+                <option value='1'>February</option>
+                <option value='2'>March</option>
+                <option value='3'>April</option>
+                <option value='4'>May</option>
+                <option value='5'>June</option>
+                <option value='6'>July</option>
+                <option value='7'>August</option>
+                <option value='8'>September</option>
+                <option value='9'>October</option>
+                <option value='10'>November</option>
+                <option value='11'>December</option>
+        </select>
+        </p>
+
+        <p><strong>Day Born:</strong></p>
+        </select>
+
+        <select id="daysSection">
+
+            <option value='0'>Sunday</option>
+            <option value='1'>Monday</option>
+            <option value='2'>Tuesday</option>
+            <option value='3'>Wednesday</option>
+            <option value='4'>Thursday</option>
+            <option value='5'>Friday</option>
+            <option value='6'>Saturday</option>
+
+
+        </select>
+        </p>
+
+        <p>
+            <button type="button" onclick="submitdetails()"></button>
+        </p>
+
+    </form>
+    </div>
+</body>
+
+
+</html>
