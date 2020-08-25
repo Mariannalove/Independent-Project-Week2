@@ -6,13 +6,10 @@ Mariam osman
 
 
 Description
-This is ghanian calander that allows you to input some details like your birth year,your birth date and birth day and year.Our work it to calculate the day of the week you were born and then dependng on your gender output we will display your Akan Name. Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born. Here are Ghanian day names.
+This is ghanian name generator that allows you to input some details like your birth year,your birth date and birth day and year.Our work it to calculate the day of the week you were born and then dependng on your gender output we will display your Akan Name. Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born. 
 
-Setup/Installation Requirements
-https://github.com/Mariannalove/Independent-Project-Week2
 
-Known Bugs
-The application still computes your name despite of not giving your year of birth. It still alerts undifined date and akan Name despite ofwrong february dates. the inner.html outputing from th js to index.html refreshes together with the page.
+
 
 Technologies Used
 JS
